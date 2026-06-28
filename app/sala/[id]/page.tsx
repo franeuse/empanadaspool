@@ -11,7 +11,7 @@ const GUSTOS_MENU = [
   'Pollo',
   'Humita / Choclo',
   'Verdura',
-  'Roquefort con Apio',
+  'Roquefort',
   'Caprese'
 ];
 
@@ -190,7 +190,7 @@ export default function Sala() {
           <div className="space-y-4">
             <input
               type="text"
-              placeholder="Tu nombre (Ej: Gabi)"
+              placeholder="Tu nombre (Ej: Euse)"
               className="w-full rounded-lg border border-slate-200 p-2.5 outline-none focus:border-amber-500"
               value={nombreUsuario}
               onChange={(e) => setNombreUsuario(e.target.value)}
