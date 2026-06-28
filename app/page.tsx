@@ -57,7 +57,7 @@ export default function Home() {
             <input
               type="text"
               required
-              placeholder="Ej: Lean"
+              placeholder="Ej: Euse"
               className="w-full rounded-lg border border-slate-200 p-2.5 outline-none focus:border-amber-500 focus:ring-1 focus:ring-amber-500"
               value={formData.creador}
               onChange={(e) => setFormData({ ...formData, creador: e.target.value })}
@@ -68,7 +68,7 @@ export default function Home() {
             <label className="block text-sm font-medium text-slate-700 mb-1">Nombre de la Juntada (Opcional)</label>
             <input
               type="text"
-              placeholder="Ej: Los Vaders, Gula de Sábado"
+              placeholder="Ej: Los 4 Fantásticos"
               className="w-full rounded-lg border border-slate-200 p-2.5 outline-none focus:border-amber-500 focus:ring-1 focus:ring-amber-500"
               value={formData.nombre_sala}
               onChange={(e) => setFormData({ ...formData, nombre_sala: e.target.value })}
